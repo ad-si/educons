@@ -21,10 +21,10 @@ module.exports = function (conf) {
 		['g', {
 			style: {
 				fill: 'transparent',
-				stroke: 'black',
+				stroke: 'none',
 				'stroke-linecap': 'round',
 				'stroke-linejoin': 'round',
-				'stroke-width': 0
+				'stroke-width': 2
 			}},
 
 
@@ -37,7 +37,7 @@ module.exports = function (conf) {
                    'M36,55 h-6 l-13,11 v-11 h-7 a9,9 0 0 1 -9,-9 v-20 ' +
                    'a9,9 0 0 1 9,-9 h40 a9,9 0 0 1 9,9 v20 a9,9 0 0 1 -9,9 h-2',
 				style: {
-					'stroke-width': conf.outline ? 2 : false,
+					stroke: conf.outline ? conf.color : 'none',
 					fill: conf.outline ? false : conf.color
 				}
 			}],
@@ -49,26 +49,13 @@ module.exports = function (conf) {
                    'M52,44 h-2 a8,8 0 0 0 -8,8 v20 a8,8 0 0 0 8,8 h20 ' +
                    'l12,10 v-10 h8 a8,8 0 0 0 8,-8 v-20 a8,8 0 0 0 -8,-8 h-26'
 					:
-                   'M60,43 v3 a10,10 0 0 1 -10,10 h-9 v16 a9,9 0 0 0 9,9 h20 ' +
-                   'l13,11 v-11 h7 a9,9 0 0 0 9,-9 v-20 a9,9 0 0 0 -9,-9 z',
+                   'M61,44 v2 a11,11 0 0 1 -11,11 h-9 v15 a9,9 0 0 0 9,9 h19 ' +
+                   'l13,11 v-11 h7 a9,9 0 0 0 9,-9 v-19 a9,9 0 0 0 -9,-9 z',
 				style: {
-					'stroke-width': conf.outline ? 2 : false,
+					stroke: conf.outline ? conf.color : 'none',
 					fill: conf.outline ? false : conf.color
 				}
 			}],
-
-			/* false
-			 ['path', {
-			 d: 'M52,44 h-2 a8,8 0 0 0 -8,8 v20 a8,8 0 0 0 8,8 h20 ' +
-			 'l12,10 v-10 h8 a8,8 0 0 0 8,-8 v-20 a8,8 0 0 0 -8,-8 z',
-			 style: {
-			 'stroke-width': 2,
-			 fill: 'rgba(240,0,0,0.6)',
-			 stroke: 'rgba(240,0,0,0.6)'
-			 }
-			 }],
-			 */
-
 
 			['path', {
 				d: "M61,67 C61,69 62,70 64,70 C66,70 69,68 70,68 " +

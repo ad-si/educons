@@ -21,10 +21,10 @@ module.exports = function (conf) {
 		['g', {
 			style: {
 				fill: 'transparent',
-				stroke: 'black',
+				stroke: 'none',
 				'stroke-linecap': 'round',
 				'stroke-linejoin': 'round',
-				'stroke-width': 0
+				'stroke-width': 2
 			}},
 			['path', {
 				d: conf.outline ?
@@ -35,7 +35,7 @@ module.exports = function (conf) {
 				   (-conf.temperature * 62 - 4) +
 				   ' h-4 z',
 				style: {
-					'stroke-width': conf.outline ? 2 : false,
+					stroke: conf.outline ? conf.color : 'none',
 					fill: conf.outline ? false : conf.color
 				}}
 			],
