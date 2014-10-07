@@ -1,0 +1,37 @@
+icons:
+  -
+    fileName: speechbubbles.js
+    targets:
+      -
+        name: speechbubbles-outline
+        outline: true
+      -
+        name: speechbubbles
+        outline: false
+  -
+    fileName: pcb.js
+    targets:
+      -
+        name: pcb-outline
+        outline: true
+      -
+        name: pcb
+        outline: false
+  -
+    fileName: thermometer.js
+    targets:
+      -
+        name: thermometer-outline
+        outline: true
+      -
+        name: thermometer
+        outline: false
+  -
+    fileName: building.js
+    targets:
+      -
+        name: building-outline
+        outline: true
+      -
+        name: building
+        outline: false
