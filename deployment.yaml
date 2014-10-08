@@ -1,37 +1,93 @@
 icons:
+
   -
-    fileName: speechbubbles.js
+    fileName: atom.js
     targets:
       -
-        name: speechbubbles-outline
-        outline: true
+        name: atom-outline
       -
-        name: speechbubbles
+        name: atom
         outline: false
-  -
-    fileName: pcb.js
-    targets:
-      -
-        name: pcb-outline
-        outline: true
-      -
-        name: pcb
-        outline: false
-  -
-    fileName: thermometer.js
-    targets:
-      -
-        name: thermometer-outline
-        outline: true
-      -
-        name: thermometer
-        outline: false
+
   -
     fileName: building.js
     targets:
       -
         name: building-outline
-        outline: true
+        color: rgb(187,123,67)
       -
         name: building
+        outline: false
+        color: rgb(187,123,67)
+
+  -
+    fileName: calculator.js
+    targets:
+      -
+        name: calculator-outline
+      -
+        name: calculator
+        outline: false
+
+  -
+    fileName: infinity.js
+    targets:
+      -
+        name: infinity-outline
+      -
+        name: infinity
+        outline: false
+
+  -
+    fileName: magnet.js
+    targets:
+      -
+        name: magnet-outline
+      -
+        name: magnet
+        outline: false
+
+  -
+    fileName: pcb.js
+    targets:
+      -
+        name: pcb-outline
+      -
+        name: pcb
+        outline: false
+
+  -
+    fileName: rocket.js
+    targets:
+      -
+        name: rocket-outline
+      -
+        name: rocket
+        outline: false
+
+  -
+    fileName: speechbubbles.js
+    targets:
+      -
+        name: speechbubbles-outline
+      -
+        name: speechbubbles
+        outline: false
+
+  -
+    fileName: terminal.js
+    targets:
+      -
+        name: terminal-outline
+      -
+        name: terminal
+        outline: false
+
+  -
+    fileName: thermometer.js
+    targets:
+      -
+        name: thermometer-outline
+      -
+        name: thermometer
         outline: false
