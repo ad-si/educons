@@ -8,10 +8,14 @@ module.exports = function (conf) {
 		    outline: true,
 		    color: 'black',
 		    temperature: 0.6
-	    }
+	    },
+	    tubeHeight
 
 
 	conf = svgKit.applyDefaults(conf, defaults)
+
+	tubeHeight = Math.round(-conf.temperature * 60 - 8)
+
 
 	return ['svg', {
 		width: width,
@@ -26,31 +30,32 @@ module.exports = function (conf) {
 				'stroke-linejoin': 'round',
 				'stroke-width': 2
 			}},
+
 			['path', {
 				d: conf.outline ?
-				   'M43,10 a1,1 0 0 1 14,0 v61 a14,14 0 1 1 -14,0 z'
+				   'M44,11 a1,1 0 0 1 12,0 v62 a12,12 0 1 1 -12,0 z'
 					:
-				   'M42,10 a1,1 0 0 1 16,0 v60.5 a15,15 0 1 1 -16,0 z' +
-				   'M48,74 a9,9 0 1 0 4,0 v' +
-				   (-conf.temperature * 62 - 4) +
+				   'M44,11 a1,1 0 0 1 12,0 v62 a12,12 0 1 1 -12,0 z' +
+				   'M48,77 a7,7 0 1 0 4,0 v' +
+				   tubeHeight +
 				   ' h-4 z',
 				style: {
-					stroke: conf.outline ? conf.color : 'none',
+					stroke: conf.color,
 					fill: conf.outline ? false : conf.color
 				}}
 			],
 
-
 			['path', {
 				d: conf.outline ?
-				   'M48,74 a9,9 0 1 0 4,0 v' +
-				   (-conf.temperature * 62 - 4) +
-				   ' h-4 z'
+				   'M49,78 a6,6 0 1 0 2,0 v' +
+				   tubeHeight +
+				   ' h-2 z'
 					:
-				   '',
+				   false,
 				style: {
 					fill: conf.outline ? conf.color : false
-				}}
+				}},
+				conf.outline ? '' : false
 			]
 		]
 	]
