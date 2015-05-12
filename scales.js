@@ -5,7 +5,7 @@ module.exports = function (conf) {
 	var width = 100,
 	    height = 100,
 	    defaults = {
-		    outline: false,
+		    outline: true,
 		    color: 'black'
 	    },
 	    pulse = "M6,51 L34,51 L40,32 L40,80 L54,20 L54,62 L62,51 L94,51"
