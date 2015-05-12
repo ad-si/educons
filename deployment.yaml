@@ -10,6 +10,24 @@ icons:
         outline: false
 
   -
+    fileName: braces.js
+    targets:
+      -
+        name: braces-outline
+      -
+        name: braces
+        outline: false
+
+  -
+    fileName: brain.js
+    targets:
+      -
+        name: brain-outline
+      -
+        name: brain
+        outline: false
+
+  -
     fileName: building.js
     targets:
       -
@@ -27,6 +45,60 @@ icons:
         name: calculator-outline
       -
         name: calculator
+        outline: false
+
+  -
+    fileName: chip.js
+    targets:
+      -
+        name: chip-outline
+      -
+        name: chip
+        outline: false
+
+  -
+    fileName: controller.js
+    targets:
+      -
+        name: controller-outline
+      -
+        name: controller
+        outline: false
+
+  -
+    fileName: diagram.js
+    targets:
+      -
+        name: diagram-outline
+      -
+        name: diagram
+        outline: false
+
+  -
+    fileName: flask.js
+    targets:
+      -
+        name: flask-outline
+      -
+        name: flask
+        outline: false
+
+  -
+    fileName: globe.js
+    targets:
+      -
+        name: globe-outline
+      -
+        name: globe
+        outline: false
+
+  -
+    fileName: graph.js
+    targets:
+      -
+        name: graph-outline
+      -
+        name: graph
         outline: false
 
   -
@@ -48,12 +120,67 @@ icons:
         outline: false
 
   -
+    fileName: microscope.js
+    targets:
+      -
+        name: microscope-outline
+      -
+        name: microscope
+        outline: false
+
+
+  -
+    fileName: molecule.js
+    targets:
+      -
+        name: molecule-outline
+      -
+        name: molecule
+        outline: false
+
+  -
     fileName: pcb.js
     targets:
       -
         name: pcb-outline
       -
         name: pcb
+        outline: false
+
+  -
+    fileName: pi.js
+    targets:
+      -
+        name: pi-outline
+      -
+        name: pi
+        outline: false
+
+  -
+    fileName: pills.js
+    targets:
+      -
+        name: pills-outline
+      -
+        name: pills
+        outline: false
+
+  -
+    fileName: planet.js
+    targets:
+      -
+        name: planet-outline
+      -
+        name: planet
+        outline: false
+
+  -
+    fileName: pulse.js
+    targets:
+      -
+        name: pulse-outline
+      -
+        name: pulse
         outline: false
 
   -
@@ -66,12 +193,30 @@ icons:
         outline: false
 
   -
+    fileName: scales.js
+    targets:
+      -
+        name: scales-outline
+      -
+        name: scales
+        outline: false
+
+  -
     fileName: speechbubbles.js
     targets:
       -
         name: speechbubbles-outline
       -
         name: speechbubbles
+        outline: false
+
+  -
+    fileName: telescope.js
+    targets:
+      -
+        name: telescope-outline
+      -
+        name: telescope
         outline: false
 
   -
@@ -90,4 +235,13 @@ icons:
         name: thermometer-outline
       -
         name: thermometer
+        outline: false
+
+  -
+    fileName: vaccine.js
+    targets:
+      -
+        name: vaccine-outline
+      -
+        name: vaccine
         outline: false
