@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "dependencies": {
+    "svgscript": "^0.9.0"
+  }
+}

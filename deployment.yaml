@@ -1,7 +1,6 @@
 icons:
-
   -
-    fileName: atom.js
+    filePath: src/atom.js
     targets:
       -
         name: atom-outline
@@ -10,7 +9,7 @@ icons:
         outline: false
 
   -
-    fileName: braces.js
+    filePath: src/braces.js
     targets:
       -
         name: braces-outline
@@ -19,7 +18,7 @@ icons:
         outline: false
 
   -
-    fileName: brain.js
+    filePath: src/brain.js
     targets:
       -
         name: brain-outline
@@ -28,7 +27,7 @@ icons:
         outline: false
 
   -
-    fileName: building.js
+    filePath: src/building.js
     targets:
       -
         name: building-outline
@@ -39,7 +38,7 @@ icons:
         color: rgb(187,123,67)
 
   -
-    fileName: calculator.js
+    filePath: src/calculator.js
     targets:
       -
         name: calculator-outline
@@ -48,7 +47,7 @@ icons:
         outline: false
 
   -
-    fileName: chip.js
+    filePath: src/chip.js
     targets:
       -
         name: chip-outline
@@ -57,7 +56,7 @@ icons:
         outline: false
 
   -
-    fileName: controller.js
+    filePath: src/controller.js
     targets:
       -
         name: controller-outline
@@ -66,7 +65,7 @@ icons:
         outline: false
 
   -
-    fileName: diagram.js
+    filePath: src/diagram.js
     targets:
       -
         name: diagram-outline
@@ -75,7 +74,7 @@ icons:
         outline: false
 
   -
-    fileName: flask.js
+    filePath: src/flask.js
     targets:
       -
         name: flask-outline
@@ -84,7 +83,7 @@ icons:
         outline: false
 
   -
-    fileName: globe.js
+    filePath: src/globe.js
     targets:
       -
         name: globe-outline
@@ -93,7 +92,7 @@ icons:
         outline: false
 
   -
-    fileName: graph.js
+    filePath: src/graph.js
     targets:
       -
         name: graph-outline
@@ -102,7 +101,7 @@ icons:
         outline: false
 
   -
-    fileName: infinity.js
+    filePath: src/infinity.js
     targets:
       -
         name: infinity-outline
@@ -111,7 +110,7 @@ icons:
         outline: false
 
   -
-    fileName: magnet.js
+    filePath: src/magnet.js
     targets:
       -
         name: magnet-outline
@@ -120,7 +119,7 @@ icons:
         outline: false
 
   -
-    fileName: microscope.js
+    filePath: src/microscope.js
     targets:
       -
         name: microscope-outline
@@ -130,7 +129,7 @@ icons:
 
 
   -
-    fileName: molecule.js
+    filePath: src/molecule.js
     targets:
       -
         name: molecule-outline
@@ -139,7 +138,7 @@ icons:
         outline: false
 
   -
-    fileName: pcb.js
+    filePath: src/pcb.js
     targets:
       -
         name: pcb-outline
@@ -148,7 +147,7 @@ icons:
         outline: false
 
   -
-    fileName: pi.js
+    filePath: src/pi.js
     targets:
       -
         name: pi-outline
@@ -157,7 +156,7 @@ icons:
         outline: false
 
   -
-    fileName: pills.js
+    filePath: src/pills.js
     targets:
       -
         name: pills-outline
@@ -166,7 +165,7 @@ icons:
         outline: false
 
   -
-    fileName: planet.js
+    filePath: src/planet.js
     targets:
       -
         name: planet-outline
@@ -175,7 +174,7 @@ icons:
         outline: false
 
   -
-    fileName: pulse.js
+    filePath: src/pulse.js
     targets:
       -
         name: pulse-outline
@@ -184,7 +183,7 @@ icons:
         outline: false
 
   -
-    fileName: rocket.js
+    filePath: src/rocket.js
     targets:
       -
         name: rocket-outline
@@ -193,7 +192,7 @@ icons:
         outline: false
 
   -
-    fileName: scales.js
+    filePath: src/scales.js
     targets:
       -
         name: scales-outline
@@ -202,7 +201,7 @@ icons:
         outline: false
 
   -
-    fileName: speechbubbles.js
+    filePath: src/speechbubbles.js
     targets:
       -
         name: speechbubbles-outline
@@ -211,7 +210,7 @@ icons:
         outline: false
 
   -
-    fileName: telescope.js
+    filePath: src/telescope.js
     targets:
       -
         name: telescope-outline
@@ -220,7 +219,7 @@ icons:
         outline: false
 
   -
-    fileName: terminal.js
+    filePath: src/terminal.js
     targets:
       -
         name: terminal-outline
@@ -229,7 +228,7 @@ icons:
         outline: false
 
   -
-    fileName: thermometer.js
+    filePath: src/thermometer.js
     targets:
       -
         name: thermometer-outline
@@ -238,7 +237,7 @@ icons:
         outline: false
 
   -
-    fileName: vaccine.js
+    filePath: src/vaccine.js
     targets:
       -
         name: vaccine-outline
